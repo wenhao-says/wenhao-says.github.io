@@ -3,11 +3,11 @@
   <title>文豪的博客</title>
   
   <subtitle>用以记录和分享，望共勉</subtitle>
-  <link href="https://github.com/wenhao-says/wenhao-says.github.io/atom.xml" rel="self"/>
+  <link href="https://wenhao-says.github.io/atom.xml" rel="self"/>
   
-  <link href="https://github.com/wenhao-says/wenhao-says.github.io/"/>
+  <link href="https://wenhao-says.github.io/"/>
   <updated>2021-07-31T04:39:11.695Z</updated>
-  <id>https://github.com/wenhao-says/wenhao-says.github.io/</id>
+  <id>https://wenhao-says.github.io/</id>
   
   <author>
     <name>aidon</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>my first post</title>
-    <link href="https://github.com/wenhao-says/wenhao-says.github.io/2021/07/31/my-first-post/"/>
-    <id>https://github.com/wenhao-says/wenhao-says.github.io/2021/07/31/my-first-post/</id>
+    <link href="https://wenhao-says.github.io/2021/07/31/my-first-post/"/>
+    <id>https://wenhao-says.github.io/2021/07/31/my-first-post/</id>
     <published>2021-07-31T04:39:11.000Z</published>
     <updated>2021-07-31T04:39:11.695Z</updated>
     
