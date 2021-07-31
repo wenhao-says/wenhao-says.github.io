@@ -6,35 +6,37 @@
   <link href="https://wenhao-says.github.io/atom.xml" rel="self"/>
   
   <link href="https://wenhao-says.github.io/"/>
-  <updated>2021-07-31T12:55:44.247Z</updated>
+  <updated>2021-07-31T15:05:36.514Z</updated>
   <id>https://wenhao-says.github.io/</id>
   
   <author>
-    <name>aidon</name>
+    <name>Aidon</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>my first post</title>
-    <link href="https://wenhao-says.github.io/2021/07/31/my-first-post/"/>
-    <id>https://wenhao-says.github.io/2021/07/31/my-first-post/</id>
-    <published>2021-07-31T10:42:47.000Z</published>
-    <updated>2021-07-31T12:55:44.247Z</updated>
+    <title>0_my_first_post</title>
+    <link href="https://wenhao-says.github.io/2021/07/31/0-my-first-post/"/>
+    <id>https://wenhao-says.github.io/2021/07/31/0-my-first-post/</id>
+    <published>2021-07-31T15:01:25.000Z</published>
+    <updated>2021-07-31T15:05:36.514Z</updated>
     
-    <content type="html"><![CDATA[<p>hello world</p><ol><li>介绍<br>在无线通信中，5G技术支持的数据速率预计将以 Gbps（20 Gbps）≈1+ 的订单。这是因为未来的通信系统必须支持物联网（IoTs）[2]和传感器网络， 这些网络确实需要非常高速的通信技术[3].在用于启动数据速率的许多技术中，多天线或空间多样性近年来吸引了研究人员的注意[4]。时空块码（STC）已被广泛用于获得无线通信的多样性增益[5]。利用传输多样性的想法是由瓦希德·塔罗赫[6]引入的，后来被阿拉穆蒂[7]采用更简单的结构。他的工作后来被扩展和正式开发，以产生时空块代码（STBC）[8]。对于2×1方案，Almouti 代码实现了完全的分集增益，并给出Bite错误率（BER）曲线几乎与接收器上的1×2最大比率组合（MRC）[9] 的曲线几乎相似。<br>在[10]中，引入了使用最大排名距离（MRD）代码作为STC的想法。MRD代码[11]，由于排名距离属性，使自己成为STC有用的候选。本文将 MRD 代码的构造描述为了GF（2 2）和GF（22）2作为STBC 的构造。此外，还调查了所有相关的共集代码，并与相应的2×1正交代码进行比较。一般认为正交代码优于所有等效的组代码，包括MRD代码。但是，MRD代码及其所有相应的coset代码在特定代码设计标准下进行比较时性能优于正交代码，稍后将在相应部分中讨论。<br>本文其余部分的组织如下：第2节描述了构造Alamouti码作为一些加性群的陪集，然后构造MRD码和所有其他等效码作为同一群的陪集。仿真结果在第3节中给出并分析。下一节描述了GF(2)上MRD码的构造及其所有的陪集码，以及它们如何与Alamouti码进行比较。第4节简要介绍了STBCs在物联网和无人机中的应用。最后一节是结束语。</li><li>代码构造<br>本节介绍要比较的代码组的代码构造。我们从阿拉穆蒂代码开始，将其构造描述为由16个元素添加剂组组成。之后，提出了包括排名代码在内的所有 16 个共集代码的构造。<br>2.1. 阿拉穆蒂（Almouti）代码构造<br>让G  = {0，1，α，α2，α3，…，α14] 是一组16个元素的加法群。让 H  = {0，1，α，α2] 是一个由4个元素组成的 G子组。H的第一个共集等于H，即将0添加到 H，从而产生 H。现在，16个不同的阿拉穆蒂代码（16个块）可以基于H的第一个coset构建，如下所示：</li></ol><p>符号{.}∗表示群元素的共轭。可以很容易地验证，所有的16个块都是正交块。<br>2.2. MRD 代码构造<br>考虑度 N 的原始多项式：</p><p>然后以下是上述多项性尺寸的尺寸N×N表示的配套矩阵：</p><p>基于Eq.（2），有一组可能的矩阵（M，M2，M3，…，M  qN+1），我们可以获得这样的：<br>矩阵集 =  其中 1 ≤  i  ≤  qN+ 1<br>这组矩阵定义一个字段 ，M 是该字段的矩阵基元元素。为了使用这些 MRD 代码，我们可以将信息符号映射到代码，如下所示：<br>让 z0 成为映射到代码字的信息符号，然后我们可以将其映射到：</p><p>一般来说，</p><p>Eq. （3） 唯一描述基于排名代码的典型时空代码。最后，等效代码称为系统配套矩阵代码，它有利于编码、解码等[10]。我们可以实现配套矩阵代码的系统形式，如：</p><p>多项式的选择是根据使用的传输天线的数量完成的。例如，如果要构造 4 个 4 维度的通信系统，4×4度的原始多项式，等等。接下来，我们将讨论一个典型的 MRD 构造示例，该示例为 2×2维度。让x2 =x =α在 Gf （2）上成为原始多项式。然后，GF（2）2的元素可以直接以矩阵形式编写如下：</p><p>因此,一组集合={𝐶0,𝐶1,𝐶2,…,𝐶15}是一个最大秩距离(MRD)代码[10]。<br>2.3。陪集码建设<br>G组的其他陪集可以将15个元素全部加到原始MRD集(章节2.2)中得到。例如,  是一个可能的陪集代码块。同样 ,和 接下来的两陪集码等等。<br>通过这种方式,我们可以构建其余12陪集码即𝑐𝑜𝑑𝑒4,𝑐𝑜𝑑𝑒5,…,𝑐𝑜𝑑𝑒15。注意，每个陪集也包含16个块码。在呈现仿真结果时，为了避免混淆，在图的图例部分显示了相应的coset代码。<br>3.模拟结果<br>对上一节中描述的所有共集代码进行了模拟。4-PSK调制被用于分别将所有符号（0、1、α、α2）映射到（1，j，+1，+j），每种情况下传输 2×104个符号。假定发射机和接收机天线之间有独立的相同分布空间路径，并且我们的单个接收器有一个独立的加法白高斯噪声源。此外，每个发射天线都有一条路径，接收机对信道状态有充分的了解。在仿真程序中，基于均匀分布计算了通道矩阵H.因此，接收的信号y，被计算为y  =  Hc  =  n，其中c是每种情况下的传输块（2×2）。最大可能性解码被用于解码传输的符号。换句话说，每个接收的信号都要比较所有可能的16个块，以选择误差最小的块，即最小欧几里德距离。<br>模拟结果如图1、2、3和4所示，其中ALamouti代码与所有其他对应的共集代码之间显示了BER比较。首先，可以观察到，MRD代码和所有其他共集代码实现了完全的分集增益，因为他们的BER曲线与阿拉穆蒂代码的曲线平行。其次，对于给定的 coset代码，Almouti代码优于所有其他coset代码，包括 MRD 代码。第三，Almouti 和其他代码之间的性能差对于低 SNR 值来说较小，并且随着 SNR 的增加，性能差距会不断增加。同样，对于低 SNR 值，coset 代码的相对差异也较小，并且对于较高的 SNR 值，它获得更多的点差。因此，可以得出结论，阿拉穆蒂正交代码是给定的2×1方案的最佳代码。<br>4. MRD 代码vsn 阿拉穆蒂代码<br>研究认为，如果块大小为4的线性代码的形成方式是每个对差的决定因素的绝对值等4，则 MRD 代码（及其所有coset代码）的性能优于阿拉穆蒂代码。这种构造描述如下：<br>让x2  =  x = 1 成为GF（2） 上的原始多项式，然后 GF（2）2的元素形成块大小 4 的 MRD 代码。直接矩阵构造基于：</p><p>将 0 映射到 1 和 1 映射到 -1 （BPSK） 后，代码变为：</p><p>对于上述MRD，可以得出两个重要的观察结果;(1)每个方模的和等于4； (2)每个两两差的行列式的绝对值等于4。<br>从物理角度看，第一个条件是矩阵的发射功率，第二个条件是编码矩阵之间的差值的度量。最后，可以得到上述MRD的三个共集码如下:    </p><p>值得注意的是，所有共集代码也满足上述两个标准。<br>接下来，从第4节中给出的16个元素中选择了类似的四个矩阵块（调制符号）：</p><p>可以轻松验证上述4个阿拉穆蒂块满足上述两个条件。<br>根据上一节提到的相同规范，对 MRD 代码（及其coset代码）和 Alamouti代码的这些选定块进行了仿真。在这种情况下，MRD代码及其共集代码比阿拉穆蒂性能更好，如图5所示。MRD 代码和 3 个 coset 执行大致相同。<br>5. 应用<br>该系统的潜在应用之一是物联网应用的本地化。正如我们在之前的工作[12]中详细解释的那样，为了确定接收机的位置，我们在接收机中设置了多个天线(光学系统中设置了多个光电二极管)。<br>接收机端使用STBCs以提高定位精度。特别是对电脑绣花机[13]来说，提高定位精度是必不可少的。该系统的其他应用包括无人机在灾害防治和农业领域、信息娱乐系统、机器人技术和电子健康系统[14-18]。<br>6. 结论<br>实验显示MRD代码和其他共集代码可以实现2个1  STBC×1 STBC（如正交代码）的完全分集增益。通常，正交代码的性能优于所有等效的组代码（包括 MRD 代码）。但是，如果两种类型的块代码的每次对差的决定因素的绝对值等于4，MRD代码的表现优于Alamouti 代码。MRD 代码和cos集在无人机、物联网和定位中可以找到其应用领域。<br>竞争利益声明<br>作者在此声明，作者及论文中出现的论据本身没有已知的可能影响本论文中报道的工作的相互竞争的经济利益或个人关系。<br>引用<br>[1]    Y. 易飞， Z. 龙明， 5G 的应用场景和启用技术， 中国公社 11 （11） （2014） 69–79.<br>[2]    S. Borkar， H. Pande， 5G 下一代网络在物联网中的应用， 在：物联网与应用国际会议 （IOTA）， 浦那， 2016， pp.443<del>447。<br>[3]    M. 徐， F. Lu， J. Wang， L. Cheng， D. Guidotti， G. Chang，下一代数字RoF移动前端的关键技术， 统计数据压缩和多波段调制， J. 光波技术 35 （17） （2017） 3671-3679.<br>[4]    P. Singh， H.B. Mishra， A.K. Jagannatham，K. Vasudevan， 半盲， 训练和数据辅助通道估计方案的MIMO-FBMC-OQAM系统，IEEE跨信号过程。（早期访问）（2019） <a href="http://dx.doi.org/10.1109/TSP%E3%80%82">http://dx.doi.org/10.1109/TSP。</a>  2019.2925607.<br>[5]    E. Biglieri等人，MIMO无线通信，剑桥大学出版社 ，2007年。<br>[6]    V. Tarokh， N. Seshadri， A.R. Calderbank， 高数据速率无线通信的时空 代码： 性能标准和代码构造， IEEE Trans. 通知。理论（1998年）。<br>[7]    S.M. 阿拉穆蒂， 无线通信的简单传输分集技术， IEEE J. Sel. 地区公社 16 （8） （1998） 1451–1458.<br>[8]    V. 塔罗赫， H. 贾法尔哈尼， A. 卡尔德班克， 时空块代码从正 交设计， Ieee Trans. 通知。理论 45 （5） （1999） 1456</del>1467.<br>[9]    T.S. 拉帕波特， 无线通信： 原则和实践， 第二， 普伦蒂斯大厅， 2001.<br>[10]    G. e. Lusina， P.M. Bossert， 最大排名距离代码作为时空代码， Ieee Trans. 通知。理论 49 （10） （2003） 2757<del>2760.<br>[11]    E. 加比杜林， 最大排名距离的代码理论， Probl 。佩雷达第 21（1）（1）（1985）1</del>12。<br>[12]    A. Naz， N.U. Hassan， M.A.P.H. Asif， T.M Jadoon，C. Yuen， 单LED吊灯为基础的室内定位系统， 在： IEEE第四届世界物联网论坛 （WF-IoT），  Sinapore，2018， pp. 682–687，  <a href="http://dx.doi.org/10.1109/WFIoT.2018.835186">http://dx.doi.org/10.1109/WFIoT.2018.835186</a>.<br>[13]    A. Naz， H.M. 阿西夫， T. Umer， B. Kim， 基于 PDOA 的室内定位 使用可见光通信， IEEE Access 6 （2018） 7557–7564.<br>[14]    T. 侯， Y. 刘， Z. 宋， X.孙， Y. 陈， 多天线辅助NOMA在无人机网络： 随机几何方法， IEEE跨通信 67 （2） （2019）  1031-1044.<br>[15]    M. R.M. Ardekani， D.C. 雅克， S. 兰博特， Gpr 全波反转的分层植被模型， IEEE J. Sel. Top.应用地球 Obs. 远程森 9 （1） （2016）  18–28.<br>[16]    F. Jameel， S. Wyne， S.J. Nawaz， Z. Chang， 毫米波车辆通信的传播渠道： 最先进的和未来的研究方向， IEEE  Wirel.公社。26 （1） （2019） 144~150.<br>[17]    S. S.， 智能天线系统的多频段多波束成形管家矩阵的性能 分析， 在： 机器人，自动化， 控制和嵌入式系统 （RACE） 国际会议 （RACE）， 钦奈， 2015， 第 1 页 –5.<br>[18]    P. 王， B. 郭， T. Xin， Z. 王， Z. Yu， Tinysense： 使用 wi-fi CSI 信号进行多用户呼吸 检测， 在： IEEE 第 19 届 E 健康网络、应用和服务国际会议 （Healthcom）， 大连， 2017， pp.1–6.</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello, world"></a>hello, world</h2><p><strong>愿给时光以生命，而不是给生命以时光，望共勉。</strong></p><blockquote><p><em><strong>To the time to life, rather than to life in time. —Blaise Pascal</strong></em></p></blockquote>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;hello world&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;介绍&lt;br&gt;在无线通信中，5G技术支持的数据速率预计将以 Gbps（20 Gbps）≈1+ 的订单。这是因为未来的通信系统必须支持物联网（IoTs）[2]和传感器网络， 这些网络确实需要非常高速的通信技术[3].在用于启动数</summary>
+    <summary type="html">&lt;h2 id=&quot;hello-world&quot;&gt;&lt;a href=&quot;#hello-world&quot; class=&quot;headerlink&quot; title=&quot;hello, world&quot;&gt;&lt;/a&gt;hello, world&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;愿给时光以生命，而不是给生命以时光，望共勉。&lt;/</summary>
       
     
     
     
+    <category term="live" scheme="https://wenhao-says.github.io/categories/live/"/>
+    
+    
+    <category term="record" scheme="https://wenhao-says.github.io/tags/record/"/>
     
   </entry>
   
