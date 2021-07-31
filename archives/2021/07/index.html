@@ -118,10 +118,10 @@
         </span>
         <span class="post-meta-divider">|</span>
         <span id="busuanzi_container_site_uv" style='display:none'>
-                总访客数<span id="busuanzi_value_site_uv"></span>人
+             总访客数<span id="busuanzi_value_site_uv"></span>人
         </span>
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  <br></div>
+  <br>
 
  <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
 <script>
@@ -135,10 +135,11 @@
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        <span class="post-meta-divider">|</span>
-        document.getElementById("timeDate").innerHTML = "已安全运行 "+dnum+" 天 "; 
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; } setInterval("createtime()",250);
 </script>
+
+</div>
 </footer>
 
 
