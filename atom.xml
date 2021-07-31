@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>文豪的博客</title>
   
+  <subtitle>用以记录和分享，望共勉</subtitle>
+  <link href="https://wenhao-says.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
-  <updated>2021-07-31T04:22:06.571Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://wenhao-says.github.io/"/>
+  <updated>2021-07-31T04:39:11.695Z</updated>
+  <id>https://wenhao-says.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>aidon</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>my first post</title>
+    <link href="https://wenhao-says.github.io/2021/07/31/my-first-post/"/>
+    <id>https://wenhao-says.github.io/2021/07/31/my-first-post/</id>
+    <published>2021-07-31T04:39:11.000Z</published>
+    <updated>2021-07-31T04:39:11.695Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/07/31/hello-world/"/>
-    <id>http://example.com/2021/07/31/hello-world/</id>
+    <link href="https://wenhao-says.github.io/2021/07/31/hello-world/"/>
+    <id>https://wenhao-says.github.io/2021/07/31/hello-world/</id>
     <published>2021-07-31T04:22:06.571Z</published>
     <updated>2021-07-31T04:22:06.571Z</updated>
     
