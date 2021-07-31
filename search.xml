@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>my first post</title>
-      <link href="/2021/07/31/my-first-post/"/>
-      <url>/2021/07/31/my-first-post/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>my first post</title>
+    <url>/2021/07/31/my-first-post/</url>
+    <content><![CDATA[<p>hello world</p>
+]]></content>
+  </entry>
 </search>
