@@ -29,7 +29,7 @@ const ap = new APlayer({
             cover: '',
             lrc: '',
             theme: '#46718b'
-        }，
+        },
         {
             name: 'always with me', 
             artist: '久石让',
