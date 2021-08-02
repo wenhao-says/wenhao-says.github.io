@@ -6,7 +6,7 @@
   <link href="https://wenhao-says.github.io/atom.xml" rel="self"/>
   
   <link href="https://wenhao-says.github.io/"/>
-  <updated>2021-08-01T07:07:17.383Z</updated>
+  <updated>2021-08-02T06:18:15.685Z</updated>
   <id>https://wenhao-says.github.io/</id>
   
   <author>
@@ -21,15 +21,12 @@
     <link href="https://wenhao-says.github.io/2021/07/31/Hello%20world/"/>
     <id>https://wenhao-says.github.io/2021/07/31/Hello%20world/</id>
     <published>2021-07-31T15:01:25.000Z</published>
-    <updated>2021-08-01T07:07:17.383Z</updated>
+    <updated>2021-08-02T06:18:15.685Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello, world"></a>hello, world</h2><p><strong>愿给时光以生命，而非给生命以时光，望共勉。</strong></p><blockquote><p><em><strong>To the time to life, rather than to life in time. —Blaise Pascal</strong></em></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>关于我建站后的一些想法。</p><span id="more"></span><h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello, world"></a>hello, world</h2><p><strong>愿给时光以生命，而非给生命以时光，望共勉。</strong></p><blockquote><p><em><strong>To the time to life, rather than to life in time. —Blaise Pascal</strong></em></p></blockquote>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;hello-world&quot;&gt;&lt;a href=&quot;#hello-world&quot; class=&quot;headerlink&quot; title=&quot;hello, world&quot;&gt;&lt;/a&gt;hello, world&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;愿给时光以生命，而非给生命以时光，望共勉。&lt;/s</summary>
-      
+    <summary type="html">&lt;p&gt;关于我建站后的一些想法。&lt;/p&gt;</summary>
     
     
     
