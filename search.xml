@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Hello world</title>
-    <url>/2021/07/31/Hello%20world/</url>
-    <content><![CDATA[<p>关于我建站后的一些想法。</p>
-<span id="more"></span>
-<h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello, world"></a>hello, world</h2><p><strong>愿给时光以生命，而非给生命以时光，望共勉。</strong></p>
-<blockquote>
-<p><em><strong>To the time to life, rather than to life in time. —Blaise Pascal</strong></em></p>
-</blockquote>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello world</title>
+      <link href="/2021/07/31/Hello%20world/"/>
+      <url>/2021/07/31/Hello%20world/</url>
+      
+        <content type="html"><![CDATA[<p>关于我建站后的一些想法。</p><span id="more"></span><h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello, world"></a>hello, world</h2><p><strong>愿给时光以生命，而非给生命以时光，望共勉。</strong></p><blockquote><p><em><strong>To the time to life, rather than to life in time. —Blaise Pascal</strong></em></p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>live</category>
+          
+          <category> live </category>
+          
       </categories>
-      <tags>
-        <tag>record</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> record </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
