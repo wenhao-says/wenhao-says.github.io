@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #13ff2e;
+  background: #ffff6a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1495,7 +1495,7 @@ pre .javascript .function {
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  left: 30px;
+  right: 30px;
   opacity: 1;
   padding: 0 6px;
   position: fixed;
@@ -1515,24 +1515,21 @@ pre .javascript .function {
     opacity: 0.8;
   }
 }
-@media screen and (min-width: 900px) {
-  .back-to-top {
-    right: 60px;
-    width: 70px;
-    height: 900px;
-    top: -900px;
-    bottom: unset;
-    transition: all 0.5s ease-in-out;
-    background: url("/images/scroll.png");
-    position: fixed;
-  }
-  .back-to-top > i {
-    display: none;
-  }
-  .back-to-top.back-to-top-on {
-    bottom: unset;
-    top: calc(100vh - 900px - 200px);
-  }
+.back-to-top {
+  right: 60px;
+  width: 70px;
+  height: 900px;
+  top: -900px;
+  bottom: unset;
+  transition: all 0.5s ease-in-out;
+  background: url("/images/scroll.png");
+}
+.back-to-top > i {
+  display: none;
+}
+.back-to-top.back-to-top-on {
+  bottom: unset;
+  top: calc(100vh - 900px - 200px);
 }
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -2263,6 +2260,10 @@ ul.breadcrumb li + li:last-child {
 .search-popup #no-result {
   color: #ccc;
   margin: auto;
+}
+.local-search-popup #local-search-result {
+  padding: 25px 40px;
+  height: calc(100% - 95px);
 }
 .popular-posts-header {
   border-bottom: 1px solid #eee;
