@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Hello world</title>
-    <url>/2021/07/31/Hello%20world/</url>
-    <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>关于我建站后的一些想法。</p>
-<span id="more"></span>
-
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>人比较蠢，在前人的肩膀上捣鼓了几天了，总算是把博客搭起来了。然后就发现一个悲催的事实：网站是搭好了内容是啥也没有啊。所以一拍脑袋整了个<em>hello world</em>作为第一篇博客，至于内容嘛，就有点水了。</p>
-<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p><strong>愿给时光以生命，而非给生命以时光，望共勉。</strong></p>
-<blockquote>
-<p><em><strong>To the time to life, rather than to life in time. —Blaise Pascal</strong></em></p>
-</blockquote>
-<p>很快啊，上来直接就画龙点睛开门见山了，进入这篇文章的主题，为什么我要搭建个人博客？</p>
-<p>首先，是因为博客好用且有用，简单来说好处有三点：<strong>方便记录我的一些想法，和大家分享一些知识，我在写博客的过程中也可以加深相关的印象。</strong>具体描述的话，记录想法就是，我希望能留下一闪而过的想法，用文字或是声音，图像也好，将它们记录下来，时刻自省。而知识分享和加深印象就再简单不过了，我一直认为，知识只有经过自己的方式使用过才算是学会了这些知识，而不是说随处可得即为己有，通过记录知识点和实践案例，在方便了自己掌握知识的同时，也能分享给有需要的人，何乐而不为呢？</p>
-<p>其次，我希望我可以做出一些改变，虽然有时候这些改变可能对别人来说是微不足道的，但至少是满足了我中二的梦想——<strong>“我要改变世界”</strong>，毕竟我自己也是世界的一部分嘛，哈哈。</p>
-<p>最后啊，有句话是这样说的，<em>“人是一棵会思考的苇草”，</em>而我认为苇草也有思考然后选择是否发声的权力。我希望我能在实现以上两种目标的情况下，稍微满足下我固执的想法，无论如何，给自己留下一片可以自由沉默的净土。</p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello world</title>
+      <link href="/2021/07/31/Hello%20world/"/>
+      <url>/2021/07/31/Hello%20world/</url>
+      
+        <content type="html"><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>关于我建站后的一些想法。</p><span id="more"></span><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>人比较蠢，在前人的肩膀上捣鼓了几天了，总算是把博客搭起来了。然后就发现一个悲催的事实：网站是搭好了内容是啥也没有啊。所以一拍脑袋整了个<em>hello world</em>作为第一篇博客，至于内容嘛，就有点水了。</p><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p><strong>愿给时光以生命，而非给生命以时光，望共勉。</strong></p><blockquote><p><em><strong>To the time to life, rather than to life in time. —Blaise Pascal</strong></em></p></blockquote><p>很快啊，上来直接就画龙点睛开门见山了，进入这篇文章的主题，为什么我要搭建个人博客？</p><p>首先，是因为博客好用且有用，简单来说好处有三点：<strong>方便记录我的一些想法，和大家分享一些知识，我在写博客的过程中也可以加深相关的印象。</strong>具体描述的话，记录想法就是，我希望能留下一闪而过的想法，用文字或是声音，图像也好，将它们记录下来，时刻自省。而知识分享和加深印象就再简单不过了，我一直认为，知识只有经过自己的方式使用过才算是学会了这些知识，而不是说随处可得即为己有，通过记录知识点和实践案例，在方便了自己掌握知识的同时，也能分享给有需要的人，何乐而不为呢？</p><p>其次，我希望我可以做出一些改变，虽然有时候这些改变可能对别人来说是微不足道的，但至少是满足了我中二的梦想——<strong>“我要改变世界”</strong>，毕竟我自己也是世界的一部分嘛，哈哈。</p><p>最后啊，有句话是这样说的，<em>“人是一棵会思考的苇草”，</em>而我认为苇草也有思考然后选择是否发声的权力。我希望我能在实现以上两种目标的情况下，稍微满足下我固执的想法，无论如何，给自己留下一片可以自由沉默的净土。</p>]]></content>
+      
+      
       <categories>
-        <category>live</category>
+          
+          <category> live </category>
+          
       </categories>
-      <tags>
-        <tag>record</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> record </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
