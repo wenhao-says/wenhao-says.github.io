@@ -2,21 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wenhao-says.github.io/2021/07/31/Hello%20world/</loc>
+    <loc>https://wenhao-says.github.io/tags/index.html</loc>
     
-    <lastmod>2021-08-02</lastmod>
+    <lastmod>2021-08-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wenhao-says.github.io/categories/index.html</loc>
+    
+    <lastmod>2021-08-10</lastmod>
     
   </url>
   
   <url>
     <loc>https://wenhao-says.github.io/about/index.html</loc>
     
-    <lastmod>2021-08-02</lastmod>
+    <lastmod>2021-08-10</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wenhao-says.github.io/tags/index.html</loc>
+    <loc>https://wenhao-says.github.io/2021/07/31/Hello%20world/</loc>
     
     <lastmod>2021-08-02</lastmod>
     
@@ -29,17 +36,10 @@
     
   </url>
   
-  <url>
-    <loc>https://wenhao-says.github.io/categories/index.html</loc>
-    
-    <lastmod>2021-07-31</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>https://wenhao-says.github.io/</loc>
-    <lastmod>2021-08-08</lastmod>
+    <lastmod>2021-08-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,7 +47,7 @@
   
   <url>
     <loc>https://wenhao-says.github.io/tags/record/</loc>
-    <lastmod>2021-08-08</lastmod>
+    <lastmod>2021-08-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -56,7 +56,7 @@
   
   <url>
     <loc>https://wenhao-says.github.io/categories/live/</loc>
-    <lastmod>2021-08-08</lastmod>
+    <lastmod>2021-08-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
