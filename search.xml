@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Learning notes</title>
+    <url>/2021/09/11/Learning-notes/</url>
+    <content><![CDATA[<p>这是文豪的学习笔记，用于记录学习到的一些知识。随缘更新。</p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello world</title>
     <url>/2021/07/31/Hello%20world/</url>
     <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>关于我建站后的一些想法。</p>

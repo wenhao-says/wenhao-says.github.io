@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wenhao-says.github.io/2021/09/11/Learning-notes/</loc>
+    
+    <lastmod>2021-09-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wenhao-says.github.io/2021/07/31/Hello%20world/</loc>
     
     <lastmod>2021-08-10</lastmod>
@@ -39,7 +46,7 @@
 
   <url>
     <loc>https://wenhao-says.github.io/</loc>
-    <lastmod>2021-08-10</lastmod>
+    <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,7 +54,7 @@
   
   <url>
     <loc>https://wenhao-says.github.io/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2021-08-10</lastmod>
+    <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -55,8 +62,15 @@
 
   
   <url>
+    <loc>https://wenhao-says.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2021-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wenhao-says.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-08-10</lastmod>
+    <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

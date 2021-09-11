@@ -6,7 +6,7 @@
   <link href="https://wenhao-says.github.io/atom.xml" rel="self"/>
   
   <link href="https://wenhao-says.github.io/"/>
-  <updated>2021-08-10T14:02:31.299Z</updated>
+  <updated>2021-09-11T12:54:34.864Z</updated>
   <id>https://wenhao-says.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Learning notes</title>
+    <link href="https://wenhao-says.github.io/2021/09/11/Learning-notes/"/>
+    <id>https://wenhao-says.github.io/2021/09/11/Learning-notes/</id>
+    <published>2021-09-11T12:43:12.000Z</published>
+    <updated>2021-09-11T12:54:34.864Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是文豪的学习笔记，用于记录学习到的一些知识。随缘更新。</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这是文豪的学习笔记，用于记录学习到的一些知识。随缘更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://wenhao-says.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="记录" scheme="https://wenhao-says.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello world</title>
